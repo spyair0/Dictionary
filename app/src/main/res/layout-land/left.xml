@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/re"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@id/et"
+        android:src="@drawable/re" />
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/re"/>
+    <ImageView
+        android:id="@+id/collect"
+        android:layout_toRightOf="@id/a"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:src="@drawable/collect" />
+    <TextView
+    android:id="@+id/tv1"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:textSize="40dp"
+    android:layout_below="@+id/et"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/tv1"/>
+</RelativeLayout>

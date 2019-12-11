@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/danci"
+    android:title="个人单词本"
+    />
+    <item
+        android:id="@+id/add"
+        android:title="添加单词"
+        />
+    <item
+        android:id="@+id/change"
+        android:title="修改"
+        />
+</menu>
